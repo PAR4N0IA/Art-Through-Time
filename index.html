@@ -15,18 +15,17 @@
             animation: gradient 15s ease infinite;
             height: 100vh;
 
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         p {
-            font-family: 'Roboto', sans-serif;
+            font-family: roboto, sans-serif;
             font-size: 36px;
             font-weight: 600;
+            color: #242629;
         }
-        p1 {
-            font-family: 'Roboto', sans-serif;
-            font-size: 24px;
-            font-weight: 550;
-        }
+
         @keyframes gradient {
             0% {
                 background-position: 0% 50%;
@@ -53,12 +52,24 @@
         }
         .EarlyModern {
             background-image: url('./EarlyModern.jpg');
+
+            position: absolute;
+            display: flex;
+            justify-content: center;
         }
         .Modern {
             background-image: url('./Modern.jpg');
+
+            position: absolute;
+            display: flex;
+            justify-content: center;
         }
         .Contemporary {
             background-image: url('./new.jpg');
+
+            position: absolute;
+            display: flex;
+            justify-content: center;
         }
 
         #end {
@@ -71,13 +82,12 @@
 </head>
 <body>
     <div id="album">
-        Art Through History
+        
         <div class="EarlyModern">
             <p>Introduction</p>
         </div>
         <div class="EarlyModern">
-            <p>Early Modern Era Indroduction</p>
-            <p1> (1450-1750)</p1>
+            <p>Early Modern Era Indroduction (1450-1750)</p>
         </div>
         <div class="EarlyModern">
             <p>Early Modern Era 1</p>
@@ -89,8 +99,7 @@
             <p>Early Modern Era 3</p>
         </div>
         <div class="Modern">
-            <p>Modern Era Indroduction</p>
-            <p1> (1450-1750)</p1>
+            <p>Modern Era Indroduction (1750-1900)</p>
         </div>
         <div class="Modern">
             <p>Modern Era 1</p>
@@ -102,8 +111,7 @@
             <p>Modern Era 3</p>
         </div>
         <div class="Contemporary">
-            <p>Contemporary Era Indroduction</p>
-            <p1> (1450-1750)</p1>
+            <p>Contemporary Era Indroduction (1900-Now)</p>
         </div>
         <div class="Contemporary">
             <p>Contemporary Era 1</p>
